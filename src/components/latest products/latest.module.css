@@ -1,0 +1,40 @@
+.latestProducts{
+    margin: 70px 0 50px 0;
+}
+.product_heading{
+    text-align: center;
+}
+.product_heading h2{
+    font-size:42px;
+}
+.latestProducts p{
+    color: #272626;
+    line-height: 30px;
+}
+.products_data{
+    display: flex;
+}
+.product_img{
+    background-color:#f8f7f6;
+    width:33%;
+}
+.product_text{
+    padding: 80px 44px;
+    color: #272626;
+    width: 33%;
+}
+.product_text:hover{
+    background-color: #272626;
+    color: #c7c7c7;
+}
+.product_text:hover p{
+  
+    color: #c7c7c7;
+}
+.product_text h4{
+    margin: 10px 0;
+}
+.product_img img{
+    width: 100%;
+    height: 100%;
+}

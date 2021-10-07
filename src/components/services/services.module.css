@@ -1,0 +1,38 @@
+.services{
+    margin: 90px 0 50px 0;
+}
+.services_text{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.services_text h2{
+    font-size:42px;
+}
+.services_text p{
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #272626;
+    line-height: 30px;
+}
+.service_nav ul{
+    list-style: none;
+    display: flex;
+    justify-content:center;
+    margin: 0;
+    padding: 0;
+}
+.service_nav ul li{
+    margin-right: 20px;
+}
+.service_nav button:focus{
+    background-color:#272626;
+    color:white;
+}
+.cards{
+    margin: 20px 0;
+    display: flex;
+    justify-content:space-between;
+}

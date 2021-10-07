@@ -1,0 +1,44 @@
+.footer_data{
+    display: flex;
+    padding:30px 0;
+}
+.footer_data h5{
+    font-size:23px;
+}
+.footer{
+    background-color: black;
+    color: #c5c6c4;
+    padding: 10px 0 10px 0;
+}
+.nav{
+    transition: all .5s ease-in-out;
+}
+.nav:hover{
+    color: white;
+}
+.footer_links ul {
+    list-style: none;
+}
+.footer a{
+    color: #c5c6c4;
+    text-decoration: none;
+    line-height:30px;
+}
+.copy_right{
+    padding: 20px 0;
+    text-align: center;
+}
+.footer_contact{
+    width: 33%;
+    line-height: 30px;
+}
+.footer_links{
+    width: 33%;
+}
+.footer_links{
+    width: 33%;
+}
+.company_data{
+    width:33%;
+    line-height: 30px;
+}

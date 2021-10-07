@@ -1,0 +1,36 @@
+.banner{
+    background-color: #272626;
+}
+.banner_data{
+    display:flex;
+    padding: 55px 0;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.banner_text h2{
+    font-size:40px;
+ }
+ .banner_btn button{
+     padding: 15px 50px;
+     font-size: 15px;
+     font-weight: 500;
+ }
+ @media only screen and (max-width:767px) {
+    .banner_data{
+        display:flex;
+        padding: 35px 0;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+    }
+    .banner_text h2{
+        font-size:30px;
+        text-align: center;
+     }
+     .banner_text p{
+         font-size:14px;
+         padding: 10px 0 20px 0;
+     }
+ }

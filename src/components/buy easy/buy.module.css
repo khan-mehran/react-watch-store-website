@@ -1,0 +1,46 @@
+.buy{
+    margin: 50px 0;
+}
+.buy_heading{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.buy_heading h2{
+    font-size:42px;
+}
+.buy_heading p{
+    font-size: 17px;
+    text-align: center;
+    color: #272626;
+    line-height: 30px;
+}
+.buy_steps{
+    display: flex;
+    justify-content: space-between;
+}
+/* for tablet stye */
+@media only screen and (max-width:991px) {
+    .buy_steps{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .buy_heading h2{
+        font-size:36px;
+    }
+    .buy_heading p{
+        font-size: 16px;
+        text-align: center;
+    }
+}
+/* for mobile style */
+@media only screen and (max-width:767px) {
+    .buy_steps{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}

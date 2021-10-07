@@ -1,0 +1,62 @@
+.hero{
+    position: relative;
+}
+.hero_img{
+    width:100%;
+}
+.hero_content{
+    position: absolute;
+    top: 70px;
+    left: 50px;
+}
+.hero_content h1{
+    font-size:66px;
+    color : white;
+}
+.hero_content p{
+    font-size:15px;
+    color:gray;
+    margin-bottom: 30px;
+}
+
+/* for tablet styling */
+@media only screen and (max-width:991px) {
+    .hero_content h1{
+        font-size:36px;
+        color : white;
+    }
+    .hero_content{
+        position: absolute;
+        top: 50px;
+        left: 50px;
+    }
+}
+/* for mobile styling */
+@media only screen and (max-width:767px) {
+    .hero_content h1{
+        font-size:26px;
+        color : white;
+    }
+    .hero_content{
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+}
+/* for small mobiles */
+@media only screen and (max-width:640px) {
+    .hero_content h1{
+        font-size:20px;
+        color : white;
+    }
+    .hero_content{
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+    .hero_content p{
+        font-size:11px;
+        color:gray;
+        margin-bottom: 10px;
+    }
+}

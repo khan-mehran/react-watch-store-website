@@ -1,0 +1,21 @@
+.serviceCard{
+    display: flex;
+    justify-content:center;
+}
+.serviceCard_text h2{
+    margin: 20px 0px 10px 0px;
+}
+.serviceCard_text p{
+    color: #272626;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width:991px) {
+    .serviceCard{
+        display: flex;
+        justify-content:center;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+}
