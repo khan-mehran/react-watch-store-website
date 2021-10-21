@@ -42,3 +42,24 @@
     width:33%;
     line-height: 30px;
 }
+
+/* for mobile responsive */
+@media only screen and (max-width:767px){
+    .footer_data{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer_contact{
+        width: 80%;
+    }
+    .footer_links{
+        width: 80%;
+        margin: 20px 0;
+    }
+    .company_data{
+        width: 80%;
+    }
+}

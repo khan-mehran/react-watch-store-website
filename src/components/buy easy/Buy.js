@@ -10,21 +10,21 @@ const Buy = () => {
     ];
     return (
         <div className='container'>
-        <div className={styles.buy}>
-            <div className={styles.buy_heading}>
-                <h2>Buy Easy Steps</h2>
-                <p>There are many variations of passages of Lorem Ipsum available,<br/> 
-                    but the majority in some form, by injected of passages ofeven 
-                    slightly believable.</p>
-            </div> 
-            <div className={styles.buy_steps}>
-                {
-                    cards.map((item)=>(
-                    <Card id={item.id} title={item.title} data={item.data} />
-                    ))
-                }
+            <div className={styles.buy}>
+                <div className={styles.buy_heading}>
+                    <h2>Buy Easy Steps</h2>
+                    <p>There are many variations of passages of Lorem Ipsum available,<br/> 
+                        but the majority in some form, by injected of passages ofeven 
+                        slightly believable.</p>
+                </div> 
+                <div className={styles.buy_steps}>
+                    {
+                        cards.map((item)=>(
+                        <Card id={item.id} title={item.title} data={item.data} />
+                        ))
+                    }
+                </div>
             </div>
-        </div>
         </div>
     )
 }

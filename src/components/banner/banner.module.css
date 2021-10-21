@@ -16,6 +16,29 @@
      font-size: 15px;
      font-weight: 500;
  }
+
+ /* for tablet responsive */
+ @media only screen and (max-width:991px) {
+    .banner_data{
+        display:flex;
+        padding: 55px 0;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+    }
+    .banner_text h2{
+        font-size:36px;
+        text-align: center;
+     }
+     .banner_text p{
+         font-size:17px;
+         text-align: center;
+         padding: 10px 10px 20px 10px;
+     }
+ }
+
+ /* for mobile responsive */
  @media only screen and (max-width:767px) {
     .banner_data{
         display:flex;
@@ -26,11 +49,12 @@
         color: white;
     }
     .banner_text h2{
-        font-size:30px;
+        font-size:24px;
         text-align: center;
      }
      .banner_text p{
          font-size:14px;
-         padding: 10px 0 20px 0;
+         text-align: center;
+         padding: 10px 10px 20px 10px;
      }
  }

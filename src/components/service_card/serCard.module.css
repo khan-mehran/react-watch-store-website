@@ -1,6 +1,17 @@
 .serviceCard{
     display: flex;
     justify-content:center;
+    width:100%;
+}
+.serviceCard_img{
+    width:40%;
+}
+.serviceCard_text{
+    width: 60%;
+    padding: 10px 20px;
+}
+.ser_img{
+    width:100%;
 }
 .serviceCard_text h2{
     margin: 20px 0px 10px 0px;
@@ -10,12 +21,32 @@
     line-height: 30px;
     margin-bottom: 30px;
 }
-
+/* for table responsive */
 @media only screen and (max-width:991px) {
     .serviceCard{
         display: flex;
         justify-content:center;
         flex-wrap: wrap;
         text-align: center;
+    }
+}
+/* for mobile responsive */
+@media only screen and (max-width:767px) {
+    .serviceCard{
+        display: flex;
+        justify-content:center;
+        flex-wrap: wrap;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    h2{
+        font-size:24px;
+    }
+    p{
+        font-size:14px;
+    }
+    .serviceCard_text{
+        padding: 0;
     }
 }

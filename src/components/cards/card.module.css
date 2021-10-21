@@ -1,7 +1,7 @@
 .steps{
     margin-top: 30px;
     border-radius: 15px;
-    width:95%;
+    width:250px;
     background-color: #333333;
     color: #c7c7c7;
     text-align: center;
@@ -9,6 +9,17 @@
     box-shadow: 2px 6px 9px 2px rgba(0,0,0,0.5);
     transition: 0.3s;
 }
+/* .steps{
+    margin-top: 30px;
+    border-radius: 15px;
+    width:95%;
+    background-color: #333333;
+    color: #c7c7c7;
+    text-align: center;
+    padding: 105px 20px;
+    box-shadow: 2px 6px 9px 2px rgba(0,0,0,0.5);
+    transition: 0.3s;
+} */
 .steps h3{
     font-size:35px;
 }
@@ -40,5 +51,11 @@
         margin-top: 10px;
         font-size:13px;
     }
+   
+}
+@media only screen and (max-width:786px) {
+  .steps{
+      width:310px
+  }
    
 }
